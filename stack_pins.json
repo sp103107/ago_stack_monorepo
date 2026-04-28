@@ -34,8 +34,8 @@
     {
       "path": "RAGMT_RUNTIME",
       "git_url": "https://github.com/sp103107/RAGMT_RUNTIME.git",
-      "pin": { "kind": "sha", "value": "2cfd5c299934e5b1d2d734d48c0d2be192c3c551" },
-      "describe": "v0.8.1-3-g2cfd5c2",
+      "pin": { "kind": "sha", "value": "4c1e7bd935a1d89af49a99b1ad07c05309c67ab2" },
+      "describe": "v0.8.1-4-g4c1e7bd",
       "role": "04_ragmt_runtime"
     },
     {
