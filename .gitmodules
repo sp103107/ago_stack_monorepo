@@ -1,0 +1,36 @@
+[submodule "aos_onbording_primitives_gen"]
+	path = aos_onbording_primitives_gen
+	url = https://github.com/sp103107/aos_onbording_primitives_gen.git
+[submodule "jsonl_shredder"]
+	path = jsonl_shredder
+	url = https://github.com/sp103107/jsonl_shredder.git
+[submodule "aos_factory_base"]
+	path = aos_factory_base
+	url = https://github.com/sp103107/aos_factory_base.git
+[submodule "pod_builder"]
+	path = pod_builder
+	url = https://github.com/sp103107/pod_builder.git
+[submodule "RAGMT_RUNTIME"]
+	path = RAGMT_RUNTIME
+	url = https://github.com/sp103107/RAGMT_RUNTIME.git
+[submodule "context_module"]
+	path = context_module
+	url = https://github.com/sp103107/context_module.git
+[submodule "ago_boot_pod"]
+	path = ago_boot_pod
+	url = https://github.com/sp103107/ago_boot_pod.git
+[submodule "fold_sense"]
+	path = fold_sense
+	url = https://github.com/sp103107/fold_sense.git
+[submodule "aos_meta_tool_adapter"]
+	path = aos_meta_tool_adapter
+	url = https://github.com/sp103107/aos_meta_tool_adapter.git
+[submodule "aos_app_tool_family_builder"]
+	path = aos_app_tool_family_builder
+	url = https://github.com/sp103107/aos_app_tool_family_builder.git
+[submodule "aos_adapter_generator"]
+	path = aos_adapter_generator
+	url = https://github.com/sp103107/aos_adapter_generator.git
+[submodule "aos_reforge"]
+	path = aos_reforge
+	url = https://github.com/sp103107/aos_reforge.git
