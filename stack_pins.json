@@ -1,0 +1,84 @@
+{
+  "schema_id": "stack_pins.v1",
+  "updated_at": "2026-04-28T00:00:00Z",
+  "canonical_note": "Mirror of ago_stack_wheel_pulls/stack_pins.json. On conflict, update wheel_pulls first, then copy here or run scripts/sync_pins_from_wheel_pulls.ps1.",
+  "repositories": [
+    {
+      "path": "aos_onbording_primitives_gen",
+      "git_url": "https://github.com/sp103107/aos_onbording_primitives_gen.git",
+      "pin": { "kind": "sha", "value": "6fcc986e36693c48322b301e0225e9d8b240fa02" },
+      "describe": "v3.5.0",
+      "role": "03_atomizer"
+    },
+    {
+      "path": "jsonl_shredder",
+      "git_url": "https://github.com/sp103107/jsonl_shredder.git",
+      "pin": { "kind": "sha", "value": "ed22b4e20ebe8e5ed16fe7cf9c2a1677783c2f95" },
+      "describe": "v1.0.1-1-ged22b4e",
+      "role": "02_jsonl_shredder"
+    },
+    {
+      "path": "aos_factory_base",
+      "git_url": "https://github.com/sp103107/aos_factory_base.git",
+      "pin": { "kind": "sha", "value": "debd82d6fab32417cd6791fd4beca115f6da3646" },
+      "describe": "v1.2.0",
+      "role": "01_aos_factory_base"
+    },
+    {
+      "path": "pod_builder",
+      "git_url": "https://github.com/sp103107/pod_builder.git",
+      "pin": { "kind": "sha", "value": "c8da953c26a63ab6b030f897e7940551a749d982" },
+      "describe": "c8da953",
+      "role": "06_pod_builder"
+    },
+    {
+      "path": "RAGMT_RUNTIME",
+      "git_url": "https://github.com/sp103107/RAGMT_RUNTIME.git",
+      "pin": { "kind": "sha", "value": "2cfd5c299934e5b1d2d734d48c0d2be192c3c551" },
+      "describe": "v0.8.1-3-g2cfd5c2",
+      "role": "04_ragmt_runtime"
+    },
+    {
+      "path": "context_module",
+      "git_url": "https://github.com/sp103107/context_module.git",
+      "pin": { "kind": "sha", "value": "a058c4e0efc8366568f78a5605570a0ffb437e4a" },
+      "describe": "a058c4e",
+      "role": "05_context_module"
+    },
+    {
+      "path": "ago_boot_pod",
+      "git_url": "https://github.com/sp103107/ago_boot_pod.git",
+      "pin": { "kind": "sha", "value": "aa9850c3eb96c5be7580b6a6d6157351e8b016fa" },
+      "describe": "aa9850c",
+      "role": "00_ago_boot_pod"
+    }
+  ],
+  "control_packages": [
+    {
+      "id": "ago_stack_control",
+      "pypi_name": "ago-stack-control",
+      "wheel_constraint": "ago_stack_control==0.5.5",
+      "optional_git_url": "https://github.com/sp103107/ago_stack_control.git",
+      "cli": "ago-stack",
+      "notes": "Install wheel from workspace root artifact or PyPI when published; editable path often ago_stack_control_v0_5_5/ago_stack_control_v0_5_5 in full workspaces."
+    },
+    {
+      "id": "ago_repo_hardening_control",
+      "pypi_name": "ago-repo-hardening-control",
+      "wheel_constraint": "ago_repo_hardening_control==0.6.0",
+      "optional_git_url": null,
+      "cli": "ago-hardening",
+      "notes": "Pin matches evidence gate v0_6_0; use inner package path ago_repo_hardening_control_v0_6_0/ago_repo_hardening_control_v0_6_0 as cwd for CLI."
+    }
+  ],
+  "pending_public_git": [
+    {
+      "module_id": "foldsense",
+      "local_vendor_path_hint": "modules/foldsense_repo_v1.1.0-1/foldsense_repo",
+      "proposed_remote": "https://github.com/sp103107/foldsense.git",
+      "version": "1.1.0",
+      "status": "create_repo_then_add_to_repositories_array",
+      "see": "https://github.com/sp103107/ago_stack_wheel_pulls/blob/main/docs/FOLDSENSE_GITHUB_MIGRATION.md"
+    }
+  ]
+}

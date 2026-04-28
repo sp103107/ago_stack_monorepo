@@ -1,0 +1,22 @@
+name: ci-smoke
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate stack_pins.json
+        run: python3 -m json.tool stack_pins.json > /dev/null
+
+      - name: Submodule commands dry check
+        run: python3 scripts/print_submodule_commands.py --root .
+
+      - name: Apply pins dry-run
+        run: python3 scripts/apply_pins_to_submodules.py --root . --dry-run
