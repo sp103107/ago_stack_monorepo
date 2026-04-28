@@ -27,8 +27,8 @@
     {
       "path": "pod_builder",
       "git_url": "https://github.com/sp103107/pod_builder.git",
-      "pin": { "kind": "sha", "value": "c8da953c26a63ab6b030f897e7940551a749d982" },
-      "describe": "c8da953",
+      "pin": { "kind": "sha", "value": "d35f6b46db482a6fb1644c17524eed1f98dfcfb9" },
+      "describe": "d35f6b4",
       "role": "06_pod_builder"
     },
     {
