@@ -1,45 +1,45 @@
 {
   "schema_id": "stack_pins.v1",
-  "updated_at": "2026-04-27T12:00:00Z",
+  "updated_at": "2026-04-28T06:00:00Z",
   "canonical_note": "Mirror of ago_stack_wheel_pulls/stack_pins.json. On conflict, update wheel_pulls first, then copy here or run scripts/sync_pins_from_wheel_pulls.ps1.",
   "repositories": [
     {
       "path": "aos_onbording_primitives_gen",
       "git_url": "https://github.com/sp103107/aos_onbording_primitives_gen.git",
-      "pin": { "kind": "sha", "value": "6fcc986e36693c48322b301e0225e9d8b240fa02" },
-      "describe": "v3.5.0",
+      "pin": { "kind": "sha", "value": "f830635d4b41fed3d328243e25155c0774e2b9d6" },
+      "describe": "v3.5.0-1-gf830635",
       "role": "03_atomizer",
       "wheel": { "build": true, "pypi_name": "automatic-directory-atomizer" }
     },
     {
       "path": "jsonl_shredder",
       "git_url": "https://github.com/sp103107/jsonl_shredder.git",
-      "pin": { "kind": "sha", "value": "ed22b4e20ebe8e5ed16fe7cf9c2a1677783c2f95" },
-      "describe": "v1.0.1-1-ged22b4e",
+      "pin": { "kind": "sha", "value": "c26cd4269860163ef005f873a65834b1975957c7" },
+      "describe": "v1.0.1-2-gc26cd42",
       "role": "02_jsonl_shredder",
       "wheel": { "build": true, "pypi_name": "jsonl-shredder" }
     },
     {
       "path": "aos_factory_base",
       "git_url": "https://github.com/sp103107/aos_factory_base.git",
-      "pin": { "kind": "sha", "value": "debd82d6fab32417cd6791fd4beca115f6da3646" },
-      "describe": "v1.2.0",
+      "pin": { "kind": "sha", "value": "682e6deec783bd39f283ca08fbf31f7db4e6e8ab" },
+      "describe": "v1.2.0-1-g682e6de",
       "role": "01_aos_factory_base",
       "wheel": { "build": true, "pypi_name": "aos-pack-factory" }
     },
     {
       "path": "pod_builder",
       "git_url": "https://github.com/sp103107/pod_builder.git",
-      "pin": { "kind": "sha", "value": "d35f6b46db482a6fb1644c17524eed1f98dfcfb9" },
-      "describe": "d35f6b4",
+      "pin": { "kind": "sha", "value": "7d85715e9879e33aec2786bf18517960917370f9" },
+      "describe": "7d85715",
       "role": "06_pod_builder",
       "wheel": { "build": false, "pypi_name": null, "notes": "Go primary; no root Python wheel." }
     },
     {
       "path": "RAGMT_RUNTIME",
       "git_url": "https://github.com/sp103107/RAGMT_RUNTIME.git",
-      "pin": { "kind": "sha", "value": "4c1e7bd935a1d89af49a99b1ad07c05309c67ab2" },
-      "describe": "v0.8.1-4-g4c1e7bd",
+      "pin": { "kind": "sha", "value": "41f2782b5f6f5e22f5cccfd12b6570310c98f980" },
+      "describe": "v0.8.1-5-g41f2782",
       "role": "04_ragmt_runtime",
       "wheel": { "build": false, "pypi_name": null, "notes": "Wheel lives under bundled_repo layout; clone via pins only for now." }
     },
@@ -54,48 +54,48 @@
     {
       "path": "ago_boot_pod",
       "git_url": "https://github.com/sp103107/ago_boot_pod.git",
-      "pin": { "kind": "sha", "value": "aa9850c3eb96c5be7580b6a6d6157351e8b016fa" },
-      "describe": "aa9850c",
+      "pin": { "kind": "sha", "value": "5eb2d44a95ca10ed6bbe500a4b3402611e3cc2c3" },
+      "describe": "5eb2d44",
       "role": "00_ago_boot_pod",
       "wheel": { "build": false, "pypi_name": null, "notes": "Nested Python packages; no single root wheel." }
     },
     {
       "path": "fold_sense",
       "git_url": "https://github.com/sp103107/fold_sense.git",
-      "pin": { "kind": "sha", "value": "66212f7ec7a35df7ac840421f81741af791e32d6" },
-      "describe": "66212f7",
+      "pin": { "kind": "sha", "value": "cee80546f20c055668ce9c6ae8e4f55d9bcdada1" },
+      "describe": "cee8054",
       "role": "07_fold_sense",
       "wheel": { "build": true, "pypi_name": "foldsense" }
     },
     {
       "path": "aos_meta_tool_adapter",
       "git_url": "https://github.com/sp103107/aos_meta_tool_adapter.git",
-      "pin": { "kind": "sha", "value": "f4d585f52d7091e8a8d37913fcb0274246fb7bd0" },
-      "describe": "f4d585f",
+      "pin": { "kind": "sha", "value": "5d4ae6499c3c6b4f23fe00fd0fa333a7038eced9" },
+      "describe": "5d4ae64",
       "role": "08_aos_meta_tool_adapter",
       "wheel": { "build": true, "pypi_name": "aos-meta-tool-adapter" }
     },
     {
       "path": "aos_app_tool_family_builder",
       "git_url": "https://github.com/sp103107/aos_app_tool_family_builder.git",
-      "pin": { "kind": "sha", "value": "3ffd7472008f9ea090691b411f686392aeb5eeb1" },
-      "describe": "3ffd747",
+      "pin": { "kind": "sha", "value": "b7067c0968e7c4c2c3be621c67a8c7c8689fe490" },
+      "describe": "b7067c0",
       "role": "09_aos_app_tool_family_builder",
       "wheel": { "build": true, "pypi_name": "aos-app-tool-family-builder" }
     },
     {
       "path": "aos_adapter_generator",
       "git_url": "https://github.com/sp103107/aos_adapter_generator.git",
-      "pin": { "kind": "sha", "value": "92171e2b4d7626bcb2665ec31ca91c7267f8e46b" },
-      "describe": "92171e2",
+      "pin": { "kind": "sha", "value": "df41a0743319da94c744e8956711ac4c18a5b86f" },
+      "describe": "df41a07",
       "role": "10_aos_adapter_generator",
       "wheel": { "build": true, "pypi_name": "aos_adapter_generator" }
     },
     {
       "path": "aos_reforge",
       "git_url": "https://github.com/sp103107/aos_reforge.git",
-      "pin": { "kind": "sha", "value": "8f9315aa11c337bb20dc94c8a475fedd044cf3d3" },
-      "describe": "8f9315a",
+      "pin": { "kind": "sha", "value": "349b926d58c531a751cf0d5fa8e81e74a50deef3" },
+      "describe": "349b926",
       "role": "11_aos_reforge",
       "wheel": { "build": true, "pypi_name": "aos-reforge" }
     }
